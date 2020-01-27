@@ -1,0 +1,99 @@
+/*Contact page*-----------------------------------------------------------------------------------------*/
+
+/* Contact section */
+
+.contactSection {
+    background: #f5f5f5;
+    padding: 95px 15px 100px;
+}
+
+.contactSection__flexcontainer {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: justify;
+            justify-content: space-between;
+    margin: 0 -15px;
+}
+
+.contactSection__infoBlock {
+    width: calc(40% - 30px);
+    margin: 0 15px;
+}
+
+.contactSection__title {
+    color: #191919;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 25px;
+    font-weight: 700;
+}
+
+.contactSection__text {
+    max-width: 375px;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.contactSection__text_main {
+    margin-bottom: 25px;
+}
+
+.contactSection__boldText {
+    color: #171717;
+    font-weight: 700;
+}
+
+@media screen and (max-width:1070px) {
+    .contactSection__text {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .contactSection__flexcontainer {
+        flex-wrap: wrap;
+        max-height: -webkit-fit-content;
+        max-height: -moz-fit-content;
+        max-height: fit-content;
+    }
+    .contactSection__infoBlock {
+        width: calc(100% - 30px);
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .contactSection__formContainer {
+        width: calc(100% - 30px);
+    }
+    .contactSection__text {
+        margin: 0 auto;
+        text-align: left;
+        font-size: 16px;
+    }
+    .contactSection__text_main {
+        margin-bottom: 25px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .contactSection__text {
+        font-size: 13px;
+    }
+    .contactSection__boldText {
+        margin-right: 350px;
+    }
+}
+
+/* Map section */
+
+.mapSection {
+    background: #f5f5f5;
+    padding: 0 15px 100px;
+}
+
+#map-9cd199b9cc5410cd3b1ad21cab2e54d3 {
+    width: 100%;
+    -webkit-filter: grayscale(100%);
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}

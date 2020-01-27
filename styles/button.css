@@ -1,0 +1,76 @@
+/*Сommon elements__button*/
+
+.button {
+    width: 180px;
+    height: 54px;
+    background: #10C9C3;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+            align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ffffff;
+    opacity: 1;
+    -webkit-transition: all .3s cubic-bezier(.47, 0.000, .745, .715);
+    transition: all .3s cubic-bezier(.47, 0.000, .745, .715);
+}
+
+.button:hover {
+    opacity: 0.6;
+    background: #e3edef;
+    color: #1D1D1D;
+}
+
+.button__navigation{
+    display: none;
+    position: fixed;
+    bottom:0;
+    right: calc((100% - 1366px) / 2);
+    opacity: 0.5;
+    background: #8193a7;
+}
+
+.button__navigation:hover{
+    opacity: 0.5;
+    background: #10C9C3;
+}
+
+@media screen and (max-width:1366px){
+    .button__navigation{
+        right: 0;
+    }
+}
+
+.button__navigation_fixed{
+    display: -webkit-box;
+    display: flex;
+    -webkit-animation: buttonAlert 1s linear both;
+            animation: buttonAlert 1s linear both;
+}
+
+@-webkit-keyframes buttonAlert {
+    0% {
+        background: #f7341a;
+        opacity: 1;
+    }
+    100% {
+        background: #8193a7;
+        opacity: 0.5;
+    }
+}
+
+@keyframes buttonAlert {
+    0% {
+        background: #f7341a;
+        opacity: 1;
+    }
+    100% {
+        background: #8193a7;
+        opacity: 0.5;
+    }
+}

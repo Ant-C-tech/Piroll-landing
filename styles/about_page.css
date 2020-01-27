@@ -1,0 +1,141 @@
+/*About page*-----------------------------------------------------------------------------------------*/
+
+/* About intro */
+
+.about__intro {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(72, 85, 100, 0.75)), to(rgba(72, 85, 100, 0.75))), url("../img/about/pic1.webp") center;
+    background: linear-gradient(to bottom, rgba(72, 85, 100, 0.75) 0%, rgba(72, 85, 100, 0.75) 100%), url("../img/about/pic1.webp") center;
+    background-size: cover;
+    height: 350px;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
+    -webkit-box-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+            align-items: center;
+    color: #ffffff;
+}
+
+.aboutIntro__title {
+    font-size: 38px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 0 15px 24px;
+}
+
+.aboutIntro__text {
+    font-size: 18px;
+    max-width: 520px;
+    text-align: center;
+    line-height: 26px;
+    margin: 0 15px;
+}
+
+/* About me */
+
+.aboutMe {
+    display: -webkit-box;
+    display: flex;
+    max-height: 570px;
+}
+
+.aboutMe__pictureBlock {
+    width: 50%;
+}
+
+.aboutMe__img {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.aboutMe__infoBlock {
+    background: -webkit-gradient(linear, left top, left bottom, from(#d4d3d8), color-stop(12.5%, #dbdbdd), color-stop(25%, #dad8db), color-stop(37.5%, #d6d4d5), color-stop(50%, #d2d0d1), color-stop(62.5%, #d1cfd2), color-stop(75%, #c8c6c9), color-stop(85%, #c5c3c8), to(#b4b3b9)), url("../img/about/pic2.webp") center;
+    background: linear-gradient(to bottom, #d4d3d8 0%, #dbdbdd 12.5%, #dad8db 25%, #d6d4d5 37.5%, #d2d0d1 50%, #d1cfd2 62.5%, #c8c6c9 75%, #c5c3c8 85%, #b4b3b9 100%), url("../img/about/pic2.webp") center;
+    background-size: cover;
+    width: 50%;
+}
+
+.aboutMe__containerInner {
+    max-width: 500px;
+    height: 100%;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
+    -webkit-box-pack: center;
+            justify-content: center;
+    padding: 10px;
+}
+
+.aboutMe__title {
+    color: #171717;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.aboutMe__item {
+    font-size: 16px;
+    max-width: 460px;
+}
+
+.aboutMe__sig {
+    margin-top: 35px;
+    max-width: 225px;
+}
+
+@media screen and (max-width:900px) {
+    .aboutMe {
+        flex-wrap: wrap;
+        max-height: -webkit-fit-content;
+        max-height: -moz-fit-content;
+        max-height: fit-content;
+    }
+    .aboutMe__infoBlock {
+        width: 100%;
+        background: -webkit-gradient(linear, left top, right top, from(#e5e0dd), color-stop(12.5%, #eae8e9), color-stop(25%, #ededed), color-stop(37.5%, #ececec), color-stop(50%, #e8e8ea), color-stop(62.5%, #e7e7e9), color-stop(75%, #dadbdf), color-stop(85%, #d0cdd4), to(#b9b8be)), url("../img/about/pic2.webp") center;
+        background: linear-gradient(to right, #e5e0dd 0%, #eae8e9 12.5%, #ededed 25%, #ececec 37.5%, #e8e8ea 50%, #e7e7e9 62.5%, #dadbdf 75%, #d0cdd4 85%, #b9b8be 100%), url("../img/about/pic2.webp") center;
+        background-size: cover;
+    }
+    .aboutMe__pictureBlock {
+        width: 100%;
+    }
+}
+
+/* Need a Project */
+
+.needProject {
+    height: 310px;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
+    -webkit-box-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+            align-items: center;
+}
+
+.needProject__title {
+    color: #191919;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+.needProject__text {
+    max-width: 634px;
+    text-align: center;
+    font-size: 16px;
+    padding: 0 5px;
+    margin-bottom: 30px;
+}

@@ -1,0 +1,60 @@
+.contactForm{
+    display: -webkit-box;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+            justify-content: space-between;
+    margin: 0 -15px;
+}
+
+.contactForm__input{
+    background: #FFFFFF;
+    line-height: 48px;
+    border: none;
+    font-size: 15px;
+    padding: 0 21px;
+    margin: 0 15px 30px;
+    outline:none;
+
+}
+
+.contactForm__input_name, .contactForm__input_email{
+width: calc(50% - 30px);
+}
+
+.contactForm__input_title{
+    width: 100%;
+}
+
+.contactForm__input_comment{
+    width: 100%;
+    min-height: 170px;
+    resize: none;
+}
+
+.contactForm__button{
+    border: none;
+    cursor: pointer;
+    margin: 0 auto;
+    outline:none;
+}
+
+.contactSection__contactForm__button{
+    margin: 0 15px;
+}
+
+.contactForm__button:hover{
+    border: 1px solid #10C9C3;
+}
+
+@media screen and (max-width:900px) {
+    .contactSection__contactForm__button{
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .contactForm__input_name, .contactForm__input_email{
+        width: 100%;
+        }
+}
