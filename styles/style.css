@@ -142,6 +142,7 @@ body {
             justify-content: center;
     -webkit-box-align: center;
             align-items: center;
+            
 }
 
 .aboutUs__title {
@@ -428,6 +429,7 @@ body {
     background: #F5F5F5;
     padding: 90px 10px 100px;
     text-align: center;
+    overflow: hidden;
 }
 
 .contactUs__title {

@@ -5,6 +5,7 @@
 .contactSection {
     background: #f5f5f5;
     padding: 95px 15px 100px;
+    overflow: hidden;
 }
 
 .contactSection__flexcontainer {
