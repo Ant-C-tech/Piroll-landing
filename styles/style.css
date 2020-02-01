@@ -25,10 +25,7 @@
 /*Page "Slider"*/
 
 @import url("slider_page.css");
-/*Page "Contacts"*/
 
-@import url("contact_page.css");
-/*Сommon elements*/
 
 /*Main page*-----------------------------------------------------------------------------------------/
 
@@ -311,9 +308,4 @@
     max-width: 542px;
     margin: 0 auto 34px;
     line-height: 23px;
-}
-
-.contactUs__formWrapper {
-    margin: 0 auto;
-    max-width: 670px;
 }

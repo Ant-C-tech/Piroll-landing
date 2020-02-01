@@ -19,6 +19,10 @@
 /*Page "Works"*/
 
 @import url("works_page.css");
+/*Page "Contacts"*/
+
+@import url("contact_page.css");
+
 
 html {
     font-family: 'Nunito Sans', sans-serif;
@@ -167,4 +171,12 @@ body {
     text-align: center;
     line-height: 26px;
     margin: 0 15px;
+}
+
+/*Contact page*-----------------------------------------------------------------------------------------*/
+
+
+.contactUs__formWrapper {
+    margin: 0 auto;
+    max-width: 670px;
 }
