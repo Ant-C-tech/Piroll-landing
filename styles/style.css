@@ -2,12 +2,7 @@
  1150  1070  990  900 750  600  550  */
 
 
-  /*Normalize styles*/
 
-@import url("normalize.css");
- /*General styles*/
-
-@import url("general.css");
 /*Common fonts*/
 
 @import url("fonts.css");
@@ -17,12 +12,6 @@
 /*Animation*/
 
 @import url("animation.css");
-/*Сommon elements__header*/
-
-@import url("header.css");
-/*Сommon elements__button*/
-
-@import url("button.css");
 /*Сommon elements__statistic*/
 
 @import url("statistic.css");
@@ -49,121 +38,7 @@
 @import url("contact_page.css");
 /*Сommon elements*/
 
-html {
-    font-family: 'Nunito Sans', sans-serif;
-    color: #787878;
-    font-size: 10px;
-}
-
-body {
-    max-width: 1366px;
-    margin: 0 auto;
-}
-
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
-}
-
 /*Main page*-----------------------------------------------------------------------------------------/
-
-/*Intro*/
-
-.intro {
-    height: 670px;
-    background: url("../img/intro/intro_bg.webp") center no-repeat;
-    background-size: cover;
-    position: relative;
-}
-
-.intro__innerContainer {
-    margin-left: auto;
-    max-width: 450px;
-    margin-top: 95px;
-}
-
-.intro__title {
-    color: #1D1D1D;
-    font-size: 35px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    margin-bottom: 30px;
-}
-
-.intro__text {
-    font-size: 18px;
-    margin-bottom: 30px;
-}
-
-@media screen and (max-width:1150px) {
-    .intro__innerContainer {
-        margin-top: 110px;
-        max-width: 250px;
-    }
-}
-
-@media screen and (max-width:900px) {
-    .intro__innerContainer {
-        margin-top: 0px;
-        margin-left: 0;
-        max-width: 100%;
-    }
-    .button_intro {
-        position: absolute;
-        bottom: 30px;
-        right: 30px;
-    }
-}
-
-@media screen and (max-width:550px) {
-    .intro__innerContainer {
-        background: rgba(255, 255, 255, .45);
-        border-radius: 10px;
-        text-align: center;
-        padding: 0 5px 10px;
-    }
-    .button_intro {
-        position: initial;
-        margin: 0 auto;
-    }
-}
-
-/*About us*/
-
-.aboutUs {
-    height: 310px;
-    display: -webkit-box;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-            flex-direction: column;
-    -webkit-box-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-            align-items: center;
-            
-}
-
-.aboutUs__title {
-    color: #191919;
-    font-size: 30px;
-    font-family: 'Montserrat', sans-serif;
-    margin-bottom: 30px;
-    font-weight: 700;
-}
-
-.aboutUs__text {
-    max-width: 634px;
-    text-align: center;
-    font-size: 16px;
-    padding: 0 5px;
-    margin-bottom: 10px;
-}
-
-.aboutUs__img {
-    display: block;
-}
 
 /*Skills*/
 

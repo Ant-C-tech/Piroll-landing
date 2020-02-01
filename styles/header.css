@@ -20,6 +20,10 @@
     transition: .45s cubic-bezier(.47, 0.000, .745, .715);
 }
 
+.header__logoImg{
+    width: 32px;
+}
+
 .header__logo:hover {
     -webkit-transform: scale(1.2);
             transform: scale(1.2);
