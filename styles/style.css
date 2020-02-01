@@ -13,9 +13,6 @@
 
 @import url("animation.css");
 
-/*Сommon elements__works*/
-
-@import url("works.css");
 /*Сommon elements__contactForm*/
 
 @import url("contact_form.css");
@@ -25,9 +22,6 @@
 /*Page "About"*/
 
 @import url("about_page.css");
-/*Page "Works"*/
-
-@import url("works_page.css");
 /*Page "Slider"*/
 
 @import url("slider_page.css");

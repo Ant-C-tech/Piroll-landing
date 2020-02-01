@@ -13,6 +13,12 @@
 /*Сommon elements__statistic*/
 
 @import url("statistic.css");
+/*Сommon elements__works*/
+
+@import url("works.css");
+/*Page "Works"*/
+
+@import url("works_page.css");
 
 html {
     font-family: 'Nunito Sans', sans-serif;
