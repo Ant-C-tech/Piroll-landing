@@ -7,9 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Piroll Design</title>
     <link rel="shortcut icon" type="image/x-icon" href="img/intro/icon.ico">
-    <link rel="stylesheet" href="styles/firstStyle.css">
-    <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet" href="styles/projects_flexslider.css">
+    <link rel="stylesheet" href="styles/firstLoad_sliderPage.css">
+
+
 </head>
 
 <body>
@@ -651,11 +651,32 @@
     </footer>
 
     <!-- Scripts -->
-    <script src="js/jquery-3.4.1.min.js"></script>
-    <script src="js/jquery-easing.js"></script>
-    <script src="js/jquery.flexslider-min.js"></script>
-    <script src="js/slider.js"></script>
-    <script src="js/lazysizes.min.js" async=""></script>
+
+<!-- Отложенная загрузка css -->
+<script type="text/javascript">
+    /* CSS #1 */
+    var giftofspeed = document.createElement('link');
+    giftofspeed.rel = 'stylesheet';
+    giftofspeed.href = 'styles/style.css';
+    giftofspeed.type = 'text/css';
+    var godefer = document.getElementsByTagName('link')[0];
+    godefer.parentNode.insertBefore(giftofspeed, godefer);
+
+    /* CSS #2 */
+    var giftofspeed = document.createElement('link');
+    giftofspeed.rel = 'stylesheet';
+    giftofspeed.href = 'styles/projects_flexslider.css';
+    giftofspeed.type = 'text/css';
+    var godefer = document.getElementsByTagName('link')[0];
+    godefer.parentNode.insertBefore(giftofspeed, godefer);
+</script>
+
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/jquery-easing.js"></script>
+<script src="js/jquery.flexslider-min.js"></script>
+<script src="js/slider.js"></script>
+<script src="js/lazysizes.min.js" async=""></script>
+
 
 </body>
 

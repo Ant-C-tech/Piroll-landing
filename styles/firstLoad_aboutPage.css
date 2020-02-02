@@ -1,0 +1,70 @@
+/*Normalize styles*/
+
+@import url("normalize.css");
+/*General styles*/
+
+@import url("general.css");
+/*Сommon elements__header*/
+
+@import url("header.css");
+/*Page "About"*/
+
+@import url("about_page.css");
+/*Сommon elements__statistic*/
+
+@import url("statistic.css");
+/*Сommon elements__button*/
+
+@import url("button.css");
+
+html {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #787878;
+    font-size: 10px;
+}
+
+body {
+    max-width: 1366px;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+/*About page*-----------------------------------------------------------------------------------------*/
+
+/* About intro */
+
+.about__intro {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(72, 85, 100, 0.75)), to(rgba(72, 85, 100, 0.75))), url("../img/about/pic1.webp") center;
+    background: linear-gradient(to bottom, rgba(72, 85, 100, 0.75) 0%, rgba(72, 85, 100, 0.75) 100%), url("../img/about/pic1.webp") center;
+    background-size: cover;
+    height: 350px;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
+    -webkit-box-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+            align-items: center;
+    color: #ffffff;
+}
+
+.aboutIntro__title {
+    font-size: 38px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 0 15px 24px;
+}
+
+.aboutIntro__text {
+    font-size: 18px;
+    max-width: 520px;
+    text-align: center;
+    line-height: 26px;
+    margin: 0 15px;
+}
