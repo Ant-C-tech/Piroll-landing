@@ -39,6 +39,26 @@
     -webkit-transition: .45s cubic-bezier(.47, 0.000, .745, .715);
     transition: .45s cubic-bezier(.47, 0.000, .745, .715);
     margin: 5px 0;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 4px 6px;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1.2;
+    display: inline-block;
+    border-radius: 3px;
+}
+
+.footer__designAutor span{
+    display:inline-block;
+    padding:2px 3px;
+}
+
+.unsplashLogo{
+    width: 12.6px;
+    display: inline-block;
+    vertical-align: bottom;
 }
 
 .footer__designAutor:hover {
